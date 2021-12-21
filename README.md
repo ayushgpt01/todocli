@@ -1,41 +1,5 @@
 Command-line (CLI) program that lets you manage your tasks.
 
-## Specification
-
-1. The app can be run in the console with `./task`.
-
-2. The app should read from and write to a task.txt text file. Each task occupies a single line in this file. Each line in the file will be in this format :
-
-   ```
-   p task
-   ```
-
-   where `p` is the priority ( priority will be a number) and `task` is the task description.
-
-   > Priority denotes how important a task is, if it is a high priority task, it should be completed earlier. Priority is denoted using an integer, the lower the number, the higher the priority.
-
-   Here is an example file that has 2 items.
-
-   ```
-   1 Buy milk
-   2 Complete the project
-   ```
-
-3. Completed task are writted to a completed.txt file. Each task occupies a single line in this file. Each line in the file should be in this format :
-
-   ```
-   task
-   ```
-
-   where task is the task description.
-
-   Here is an example file that has 2 items.
-
-   ```
-   Buy milk
-   Complete the project
-   ```
-
 ## Usage
 
 ### 1. Help
